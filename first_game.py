@@ -1,10 +1,17 @@
+# a print statement in python 
 print("Welcome to my first game!!")
 
+# taking input from standard input
 name = input("What is your name? ")
+
+# converts the input string to an integer   
 age = int(input("What is your age? "))
 
+# initial health of the player
 health = 10
 
+# main logic of the program starts from here
+# simple if-elses to decide the fate of the player
 if age >= 18:
     print("You are old enough to play!!")
     
